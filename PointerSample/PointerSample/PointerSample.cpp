@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-char buf[100];
+char buf[2000];
 void MemoryDump(int start, int length); // 함수의 원형 Prototype
 
 int main(int argc, char *argv[])    // PointerSample 10000 500: // Command Line 명령어
